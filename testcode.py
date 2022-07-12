@@ -12,4 +12,3 @@ def test_func2(a: list, b: int) -> int:
 if __name__ == '__main__':
     print(test_func(1, 2))
     print(test_func2([1, 2], 3))
-    
