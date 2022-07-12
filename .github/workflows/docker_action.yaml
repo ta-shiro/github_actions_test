@@ -28,6 +28,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: .github/workflow/Dockerfile
+          context: .github/workflows/Dockerfile
           push: false
           tags: user/app:latest
