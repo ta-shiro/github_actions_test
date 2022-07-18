@@ -130,3 +130,5 @@ dmypy.json
 
 # github actions
 actions-runner/
+Dockerfile
+.jupyter/jupyter_notebook_config.py
