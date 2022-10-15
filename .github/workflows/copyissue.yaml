@@ -1,0 +1,10 @@
+name: copy-issue
+on: [push]
+jobs:
+  copy-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is test"
+      - uses: actions/checkout@v2
+      - run: cp ../../issues ./
+          
