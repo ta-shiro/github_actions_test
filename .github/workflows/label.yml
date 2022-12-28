@@ -34,4 +34,4 @@ jobs:
                 labeld_conference = true;
               }
             }
-            exit 1
+            core.setFailed('this is error!');
