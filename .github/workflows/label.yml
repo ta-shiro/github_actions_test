@@ -34,4 +34,8 @@ jobs:
                 labeld_conference = true;
               }
             }
-            labeld_conference
+            if (labeld_conference) {
+              return 0;
+            } else {
+              return 1;
+            }
