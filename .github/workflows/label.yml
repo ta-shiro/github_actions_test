@@ -17,3 +17,6 @@ jobs:
               repo: context.repo.repo,
             })
             console.log(issues_label)
+            for (var i in issue_label){
+              console.log(issue_label[i].name)
+            }
