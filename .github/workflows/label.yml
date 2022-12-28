@@ -18,9 +18,10 @@ jobs:
             })
             console.log(issues_label)
             console.log(issues_label.data)
+            console.log('this is end1')
             console.log(issues_label.data[0])
-            console.log(issues_label.data[0][0])
-            console.log(issues_label.data[0][0].name)
+            console.log('this is end2')
+            console.log(issues_label.data[0]["name"])
             for (var i in issues_label){
               console.log(issues_label.data[i].name)
             }
