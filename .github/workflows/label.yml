@@ -22,6 +22,16 @@ jobs:
             console.log(issues_label.data[0])
             console.log('this is end2')
             console.log(issues_label.data[0]["name"])
+            var labeld_conference = false
+            var labeld_year = false
+            var labeld_network = false
+            var labeld_task = false
+            var label_name;
             for (var i in issues_label){
-              console.log(issues_label.data[i].name)
+              label_name = issues_label.data[i]["name"]
+              console.log(label_name)
+              if (label_name.search(/bu*/) == 0) {
+                labeld_conference = true;
+              }
             }
+            labeld_conference
