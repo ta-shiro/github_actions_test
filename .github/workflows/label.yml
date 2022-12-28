@@ -27,7 +27,7 @@ jobs:
             var labeld_network = false
             var labeld_task = false
             var label_name;
-            for (var i in issues_label){
+            for (var i = 0; i < issues_label.data.length; i++){
               label_name = issues_label.data[i]["name"]
               console.log(label_name)
               if (label_name.search(/bu*/) == 0) {
